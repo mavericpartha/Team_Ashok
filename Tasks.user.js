@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://worker.mturk.com/projects/*/tasks/*
 // @grant       none
-// @version     2.6
+// @version     2.7
 // @updateURL    https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/Tasks.user.js
 // @downloadURL  https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/Tasks.user.js
 // ==/UserScript==

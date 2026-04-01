@@ -3,9 +3,9 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://worker.mturk.com/projects/*/tasks/*
 // @grant       none
-// @version     2.4
-// @updateURL    https://github.com/mavericpartha/lokesh/raw/refs/heads/main/Tasks.user.js
-// @downloadURL  https://github.com/mavericpartha/lokesh/raw/refs/heads/main/Tasks.user.js
+// @version     2.5
+// @updateURL    https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/Tasks.user.js
+// @downloadURL  https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/Tasks.user.js
 // ==/UserScript==
 
 (function () {

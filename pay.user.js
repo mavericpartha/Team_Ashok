@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         AB2soft MTurk Payment Cycle Manager (Restructured)
 // @namespace    AB2soft
-// @version      8.1
+// @version      9.1
 // @description  Restructured logic based on earning slabs and 6th-to-5th cycle period
 // @match        https://worker.mturk.com/*
 // @grant        none
 // @run-at       document-idle
-
+// @updateURL    https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/pay.user.js
+// @downloadURL  https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/pay.user.js
 // ==/UserScript==
 
 (function () {

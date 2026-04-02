@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://worker.mturk.com/projects/*/tasks/*
 // @grant       none
-// @version     2.7
+// @version     2.8
 // @updateURL    https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/Tasks.user.js
 // @downloadURL  https://github.com/mavericpartha/Team_Ashok/raw/refs/heads/main/Tasks.user.js
 // ==/UserScript==
@@ -18,13 +18,14 @@
     import { getFirestore, setDoc, doc, addDoc, collection, serverTimestamp, query, where, orderBy, getDocs, writeBatch, limit } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
    const firebaseConfig = {
-  apiKey: "AIzaSyAyZpYd8caNG7ktBdpkJnffVrVTOuLKFKE",
-  authDomain: "ashok-rsenb.firebaseapp.com",
-  projectId: "ashok-rsenb",
-  storageBucket: "ashok-rsenb.firebasestorage.app",
-  messagingSenderId: "219748544730",
-  appId: "1:219748544730:web:d8919b71edc1b36f4435e3"
+  apiKey: "AIzaSyCamWowJWXemzUm6ATBax8c4IMnwpPKBao",
+  authDomain: "turkapp-802aa.firebaseapp.com",
+  projectId: "turkapp-802aa",
+  storageBucket: "turkapp-802aa.firebasestorage.app",
+  messagingSenderId: "1071604843812",
+  appId: "1:1071604843812:web:60691c08f07bc65f151fb1"
 };
+
 
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);

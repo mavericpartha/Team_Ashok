@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AB2soft MTurk Payment Cycle Manager (Restructured)
 // @namespace    AB2soft
-// @version      9.5
+// @version      9.6
 // @description  Restructured logic based on earning slabs and 6th-to-5th cycle period
 // @match        https://worker.mturk.com/*
 // @grant        none
@@ -216,7 +216,7 @@
   function getEarningSlab(earnings) {
     if (earnings >= 20) return SLABS.S20_PLUS;
     if (earnings >= 8) return SLABS.S8_TO_19;
-    if (earnings > 3) return SLABS.S3_TO_7;
+    if (earnings > 3 && earnings <= 7.99) return SLABS.S3_TO_7;
     return SLABS.S0_TO_3;
   }
 
